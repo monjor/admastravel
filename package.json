@@ -12,7 +12,7 @@
   },
   "author": "Abenezer Monjor",
   "license": "ISC",
-  "engines" : {
+  "engines": {
     "node": "12.17.0"
   },
   "bugs": {
