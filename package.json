@@ -1,0 +1,22 @@
+{
+  "name": "admas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monjor/admastravel.git"
+  },
+  "author": "Abenezer Monjor",
+  "license": "ISC",
+  "engines" : {
+    "node": "4.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/monjor/admastravel/issues"
+  },
+  "homepage": "https://github.com/monjor/admastravel#readme"
+}
