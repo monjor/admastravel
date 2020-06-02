@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/monjor/admastravel/issues"
   },
-  "homepage": "https://github.com/monjor/admastravel#readme"
+  "homepage": "https://github.com/monjor/admastravel#readme",
+  "dependencies": {
+    "ejs": "^3.1.3"
+  }
 }
