@@ -34,7 +34,7 @@ app.get('/book', function(req, res){
 });
 
 
-app.post("/send", function(req, res){
+app.post("/contactPost", function(req, res){
     const output = `
      <p> You have a new contact request </p>
      <h3>Contact Details</h3>
@@ -66,7 +66,7 @@ app.post("/send", function(req, res){
       let mailOptions = {
         from: 'admastravelnodemailer@gmail.com', // sender address
         to: "abenezermonjor@gmail.com, monjo003@morris.umn.edu", // list of receivers
-        subject: "Contact Me", // Subject line
+        subject: "Contact Me - Admas Travel", // Subject line
         text: "Hello world?", // plain text body
         html: output // html body
       };
