@@ -109,7 +109,7 @@ app.post("/contactPost", function(req, res){
         secure: false, // true for 465, false for other ports
         auth: {
           user: 'admastravelnodemailer@gmail.com', // generated ethereal user  --- abe@email.com
-          pass: 'TempPass' // generated ethereal password -- password
+          pass: 'www.topcase.co' // generated ethereal password -- password
         },
         tls:{
           rejectUnauthorized:false
