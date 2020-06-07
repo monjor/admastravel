@@ -1,11 +1,24 @@
 <%- include('partials/header') %>
 
-    <div class="destination_banner_wrap overlay">
+   <div class="bradcam_area bradcam_bg_4">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="bradcam_text text-center">
+                    <h3>Book</h3>
+                    <p>Pixel perfect design with awesome contents</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- <div class="destination_banner_wrap overlay">
         <div class="destination_text text-center">
             <h3>Saintmartine Iceland</h3>
             <p>Pixel perfect design with awesome contents</p>
         </div>
-    </div>
+    </div> -->
 
     <div class="destination_details_info">
         <div class="container">
@@ -14,42 +27,42 @@
                    
                     <div class="bordered_1px"></div>
                     <div class="contact_join">
-                        <h3>Request booking</h3>
-                        <form class="search_form" action="#">
+                        <h3>Request Booking</h3>
+                        <form class="search_form" method="POST" action="bookPost">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="single_input">
-                                        <input type="text" placeholder="First Name *" required>
+                                        <input type="text" name="first" id="first"  placeholder="First Name *" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="single_input">
-                                        <input type="text" placeholder="Last Name *" required>
+                                        <input type="text" name="last" id="Last"  placeholder="Last Name *" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="single_input">
-                                        <input type="text" placeholder="Phone no. * " required>
+                                        <input type="text" name="phone" id="phone"  placeholder="Phone no. * " required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="single_input">
-                                        <input type="text" placeholder="Email *" required>
+                                        <input type="email"  name="email" id="email"  placeholder="Email *" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="single_input">
-                                        <input type="text" placeholder="Travel Time Frame *" required>
+                                        <input type="text" name="timeFrame" id="timeFrame" placeholder="Travel Time Frame *" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="single_input">
-                                        <input type="text" placeholder="Flying From *" required>
+                                        <input name="flyingFrom" id="flyingFrom" type="text" placeholder="Flying From *" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="single_input">
-                                        <input type="text" placeholder="Destination of Interest *" required>
+                                        <input name="destination" id="destination" type="text" placeholder="Destination of Interest *" required>
                                     </div>
                                 </div>
 
@@ -94,7 +107,7 @@
 
                                 <div class="col-lg-12">
                                     <div class="single_input">
-                                        <textarea name="" id="" cols="30" rows="10"placeholder="Tell me more" ></textarea>
+                                        <input name="message" id="message" type="text" cols="30" rows="10"placeholder="Tell me more" > </input>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">

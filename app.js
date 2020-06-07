@@ -120,7 +120,7 @@ app.post("/contactPost", function(req, res){
       let mailOptions = {
         from: 'admastravelnodemailer@gmail.com', // sender address
         to: "abenezermonjor@gmail.com, monjo003@morris.umn.edu", // list of receivers
-        subject: "Contact Me - Admas Travel", // Subject line
+        subject: "Booking Information - Admas Travel", // Subject line
         text: "Hello world?", // plain text body
         html: output // html body
       };
