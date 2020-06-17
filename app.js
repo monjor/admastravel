@@ -65,7 +65,8 @@ app.post("/contactPost", function(req, res){
       // send mail with defined transport object
       let mailOptions = {
         from: 'admastravelnodemailer@gmail.com', // sender address
-        to: "abenezermonjor@gmail.com, monjo003@morris.umn.edu", // list of receivers
+        // to: "abenezermonjor@gmail.com, admastravel@gmail.com", // list of receivers
+        to: "admastravel@gmail.com",
         subject: "Contact Me - Admas Travel", // Subject line
         text: "Hello world?", // plain text body
         html: output // html body
@@ -119,7 +120,7 @@ app.post("/contactPost", function(req, res){
       // send mail with defined transport object
       let mailOptions = {
         from: 'admastravelnodemailer@gmail.com', // sender address
-        to: "abenezermonjor@gmail.com, monjo003@morris.umn.edu", // list of receivers
+        to: "admastravel@gmail.com", // list of receivers
         subject: "Booking Information - Admas Travel", // Subject line
         text: "Hello world?", // plain text body
         html: output // html body
