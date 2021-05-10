@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/monjor/admastravel#readme",
   "dependencies": {
-    "@heroku-cli/plugin-buildpacks": "^7.53.0",
     "@heroku/buildpack-registry": "^1.0.1",
     "async-file": "^2.0.2",
     "body-parser": "^1.19.0",
